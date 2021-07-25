@@ -1,0 +1,118 @@
+.object-header {
+  padding: 10px 60px 10px;
+  color: #52565E;
+
+  .object-header__menu-btn {
+    top: 10px;
+    right: 10px;
+    background-color: #32383F;
+
+    @media(hover) {
+      &:hover, &:focus-visible {
+        outline: none;
+        background-color: #0b5761;
+      }
+    }
+  }
+
+  .object-header__burger {
+    margin: 0 auto;
+    width: 30px;
+    flex: 0 0 30px;
+    height: 4px;
+    background-color: white;
+
+    &:before, &:after {
+      width: 30px;
+      flex: 0 0 30px;
+      height: 4px;
+    }
+
+    &::before {
+      transform: translateY(-10px);
+    }
+
+    &::after {
+      transform: translateY(10px);
+    }
+  }
+}
+
+.header__wrap {
+  text-align: center;
+  min-height: 15vh;
+
+  @media (min-width: 768px) {
+    text-align: left;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.address {
+  margin-bottom: 15px;
+  font-size: 14px;
+
+  @media (min-width: 576px) {
+    font-size: 16px;
+  }
+
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+    width: 50%;
+  }
+}
+
+.contacts {
+  @media (min-width: 768px) {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.messengers-list {
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    width: 30px;
+    height: 30px;
+    margin: 0 30px 0 0;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    display: block;
+    font-size: 0;
+
+    @media (hover) {
+      &:hover, &:focus-visible {
+        outline: none;
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  &__icon {
+    width: 30px;
+    flex: 0 0 30px;
+    height: 30px;
+    fill: #52565E;
+  }
+
+  @media (min-width: 992px) {
+    justify-content: flex-start;
+  }
+}
+
+.object-header__contact-link {
+  color: #52565E;
+  font-weight: bold;
+}

@@ -1,0 +1,24 @@
+<div class="object-card">
+    <picture class="object-card__pictures">
+        <source srcset="@@card-webp-link 1x, @@card-webp-link@2x 2x"
+                type="image/webp">
+
+        <img src="@@card-jpg-link"
+             srcset="@@card-jpg-link@2x 2x"
+             class="object-card__img"
+             alt="@@card-alt"
+             loading="lazy">
+
+    </picture>
+
+    <div class="object-card__content">
+        <h3 class="h3 object-card__h3">
+            <span class="descriptor">@@card-descriptor</span>@@card-title</h3>
+        <ul class="object-benefits">
+            @@for (let i = 0; i < cardBenefit.length; i++) {
+            <li class="object-benefits__item">`+cardBenefit[i]+`</li>
+            }
+        </ul>
+        <a class="btn" href="@@object-link">@@btn-text</a>
+    </div>
+</div>

@@ -1,0 +1,55 @@
+.r-benefits {
+  background-color: #282d32;
+}
+
+.r-benefits__h2 {
+  margin-top: 50px;
+
+  &:after {
+    content: '';
+    margin: 10px auto 0;
+    display: block;
+    width: 36px;
+    height: 23px;
+    background-image: url("/img/residence/r-benefits/arrow.png");
+  }
+}
+
+.r-benefits__picture {
+  padding: 0 10px;
+  margin-bottom: 50px;
+  display: block;
+}
+
+.r-benefits__img-lg {
+  border: 1px solid white;
+}
+
+.r-benefits__img-list {
+  padding: 0;
+  width: 100%;
+
+  @media (min-width: 992px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.r-benefits__img-item {
+  margin: 0 auto 10px;
+  width: 580px;
+  max-width: 100%;
+
+  @media (min-width: 992px) {
+    width: 49%;
+  }
+}
+
+.r-benefits__img {
+
+  //@media (min-width: 992px) {
+    width: 100%;
+  //}
+  border: 1px solid white;
+}

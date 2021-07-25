@@ -7,7 +7,7 @@ const babel = require('gulp-babel');
 const concat = require('gulp-concat');
 
 module.exports = function build_js() {
-	return src(['src/components/**/*.js', 'src/js/01_main.js'])
+	return src(['node_modules/swiper/swiper-bundle.min.js', 'node_modules/fslightbox/index.js','src/components/**/*.js', 'src/js/01_main.js'])
 		.pipe(uglify())
 		.pipe(babel({
 			presets: ['@babel/env']

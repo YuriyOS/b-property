@@ -1,0 +1,35 @@
+.object__slider {
+  margin-bottom: 50px;
+
+  .swiper-pagination {
+    bottom: 20px;
+
+    .swiper-pagination-bullet {
+      width: 10px;
+      flex: 0 0 10px;
+      height: 10px;
+      opacity: .8;
+      border-radius: 0;
+      background: white;
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: #f44336;
+    }
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: white;
+
+    @media (hover) {
+      &:hover, &:focus-visible {
+        color: #f44336;
+      }
+    }
+  }
+}
+
+.slider-img {
+  width: 100%;
+}

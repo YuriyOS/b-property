@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+@@include('components/page-blocks/_head.html',{
+"lang":"uk",
+"title":"Купити офіс в ЖК Arch House",
+"description":"Продаж офісу ► вул. вул. Богдана Хмельницького, 2, 37 - Б, Київ. ✓Престижний будинок ✓Окремий вхід ✓Високий рівень безпеки ☎+38 097 292 11 93",
+"keywords":"ЖК Arch House",
+"favicon.png":"/img/favicon.ico",
+})
+
+<body>
+
+@@include('components/bem-blocks/object-header/_object-header.html', {
+"address": "м. Київ, вул. Богдана Хмельницького, 2, 37-Б",
+"name": "ЖК Arch House"
+})
+
+<main class="main">
+    @@include('components/bem-blocks/object-intro/_object-intro.html', {
+    "heading-bg": "arch-heading-bg",
+    "photo-bg": "arch-photo-bg",
+    "object-descriptor": "ПРОДАЖ",
+    "object-title": "ARCH HOUSE TITLE"
+    })
+
+
+    @@include('components/page-blocks/arch-house-page/_a-content-photo-left.html')
+
+
+    @@include('components/page-blocks/arch-house-page/_arch-benefits.html')
+
+    @@include('components/page-blocks/arch-house-page/_a-content-photo-right.html')
+
+    @@include('components/page-blocks/arch-house-page/_arch-info.html')
+
+    @@include('components/page-blocks/arch-house-page/_arch-plan.html')
+
+    <section class="object-map">
+        <iframe class="object-map__map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.6974066243565!2d30.5038182017968!3d50.446736695412085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef61d6fffff%3A0xffa827b6adce1b13!2sARCHhouse!5e0!3m2!1sru!2sua!4v1626988867679!5m2!1sru!2sua"
+                allowfullscreen="" loading="lazy"></iframe>
+        </iframe>
+    </section>
+
+</main>
+
+@@include('components/page-blocks/footer/_footer.html', {
+"object-footer": "object-footer"
+})
+@@include('components/page-blocks/_scripts.html')
+
+</body>
+
+</html>

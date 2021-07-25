@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+@@include('components/page-blocks/_head.html',{
+"lang":"uk",
+"title":"Купити офіс в ЖК Botanic Towers",
+"description":"Продаж офісу ► вул. Саксаганського, 121, Київ. ✓Власна тераса ✓Особисті паркомісця ✓Високий рівень безпеки ☎+38 097 292 11 93",
+"keywords":"ЖК Botanic Towers",
+"favicon.png":"/img/favicon.ico",
+})
+
+<body>
+
+@@include('components/bem-blocks/object-header/_object-header.html', {
+"address": "м. Київ, вул. Саксаганського, 121",
+"name": "ЖК Botanic Towers"
+})
+
+<main class="main">
+    @@include('components/bem-blocks/object-intro/_object-intro.html', {
+    "heading-bg": "saksaganskogo-heading-bg",
+    "photo-bg": "saksaganskogo-photo-bg",
+    "object-descriptor": "ПРОДАЖ",
+    "object-title": "ГОТОВИЙ БІЗНЕС З ДОХОДОМ 11.2% <br> В ДОЛАРАХ НА РІК"
+    })
+
+
+    @@include('components/page-blocks/botanic-page/_b-content-photo-left.html')
+
+
+    @@include('components/page-blocks/botanic-page/_botanic-benefits.html')
+
+    @@include('components/page-blocks/botanic-page/_b-content-photo-right.html')
+
+    @@include('components/page-blocks/botanic-page/_botanic-info.html')
+
+    @@include('components/page-blocks/botanic-page/_botanic-plan.html')
+
+    <section class="object-map">
+        <iframe class="object-map__map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9507374078394!2d30.49581691589589!3d50.44201824585322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef3ddbfa885%3A0x50cdec50fada8cbc!2z0JHQvtGC0LDQvdC40Log0KLQsNGD0Y3RgNC3INCR0LjQt9C90LXRgS3RhtC10L3RgtGA!5e0!3m2!1sru!2sua!4v1616206646206!5m2!1sru!2sua"
+                allowfullscreen="" loading="lazy"></iframe>
+        </iframe>
+    </section>
+
+</main>
+
+@@include('components/page-blocks/footer/_footer.html', {
+"object-footer": "object-footer"
+})
+@@include('components/page-blocks/_scripts.html')
+
+</body>
+
+</html>

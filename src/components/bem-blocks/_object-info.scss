@@ -1,0 +1,32 @@
+.object-info {
+  margin: 0 10px 10px;
+  color: white;
+  background-color: #222222;
+}
+
+.info__list-wrap {
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.info__list-side {
+  @media (min-width: 768px) {
+    width: 45%;
+  }
+}
+
+.info__list {
+  padding: 0;
+}
+
+.info__item {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #52565E;
+  width: 615px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

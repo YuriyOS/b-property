@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "card-webp-link": "/img/main-page/arch-main-page.webp",
+    "card-webp-link@2x": "/img/main-page/arch-main-page@2x.webp",
+    "card-jpg-link": "/img/main-page/arch-main-page.jpg",
+    "card-jpg-link@2x": "/img/main-page/arch-main-page@2x.jpg",
+    "card-alt": "Офіс в ЖК Arch House",
+    "card-descriptor": "ПРОДАЖ",
+    "card-title": "Arch House",
+    "cardBenefit": [
+      "Arch House",
+      "Arch House",
+      "Arch House"
+    ],
+    "object-link": "/arch-house.html",
+    "btn-text": "Детальніше"
+  },
+  {
+    "id": 2,
+    "card-webp-link": "/img/main-page/botanic-main-page.webp",
+    "card-webp-link@2x": "/img/main-page/botanic-main-page@2x.webp",
+    "card-jpg-link": "/img/main-page/botanic-main-page.jpg",
+    "card-jpg-link@2x": "src/img/main-page/gostomel-main-page@2x.jpg",
+    "card-alt": "Офіс в ЖК Botanic Towers",
+    "card-descriptor": "ПРОДАЖ",
+    "card-title": "Готовий бізнес з доходом 11.2% в доларах на рік. Офіс в ЖК Botanic Towers",
+    "cardBenefit": [
+      "Постійний орендарь.",
+      "Ділова центральна частина Києва.",
+      "Авторський ремонт. Обладнаний меблями та побутовою технікою."
+    ],
+    "object-link": "/botanic.html",
+    "btn-text": "Детальніше"
+  },
+  {
+    "id": 3,
+    "card-webp-link": "/img/main-page/gostomel-main-page.webp",
+    "card-webp-link@2x": "/img/main-page/gostomel-main-page@2x.webp",
+    "card-jpg-link": "/img/main-page/gostomel-main-page.jpg",
+    "card-jpg-link@2x": "/img/main-page/gostomel-main-page@2x.jpg",
+    "card-alt": "Заміська резиденція в сосновому лісі",
+    "card-descriptor": "ПРОДАЖ | ОРЕНДА",
+    "card-title": "Заміська резеденція в сосновому лісі",
+    "cardBenefit": [
+      "5 км від Києва.",
+      "SPA центр: хамам, баня, 2 купелі, масажний кабінет, Lounge кімната.",
+      "Відкритий басейн з підігрівом. BBQ зона. Баскетбольний майданчик. Фітнес зал."
+    ],
+    "object-link": "/residence.html",
+    "btn-text": "Детальніше"
+  }
+]

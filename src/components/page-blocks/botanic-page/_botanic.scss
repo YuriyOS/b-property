@@ -1,0 +1,28 @@
+@supports not (background-image: url("/img/saksaganskogo/intro/botanic-intro-left.webp")) {
+  .saksaganskogo-heading-bg {
+    background-image: url("/img/saksaganskogo/intro/botanic-intro-left.jpg")
+  }
+}
+
+.saksaganskogo-heading-bg {
+  background-image: url("/img/saksaganskogo/intro/botanic-intro-left.webp");
+
+  &:before {
+    background: rgba(20, 20, 20, .92);
+  }
+}
+
+@supports not (background-image: url("/img/saksaganskogo/intro/botanic-intro-right.webp")) {
+  .saksaganskogo-photo-bg {
+    background-image: url("/img/saksaganskogo/intro/botanic-intro-right.jpg")
+  }
+}
+
+.saksaganskogo-photo-bg {
+  background-image: url("/img/saksaganskogo/intro/botanic-intro-right.webp");
+}
+
+.s-benefits {
+  margin: 0 10px;
+  background-color: #282d32;
+}

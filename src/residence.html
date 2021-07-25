@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+@@include('components/page-blocks/_head.html',{
+"lang":"uk",
+"title":"Продаж, оренда заміськой резиденціїї в м. Гостомель",
+"description":"Gulp pack for easy html/php markup development",
+"keywords":"",
+"favicon.png":"/img/favicon.ico",
+})
+
+<body>
+
+@@include('components/bem-blocks/object-header/_object-header.html', {
+"address": "м. Гостомель",
+"name": "КМ Канадське селище"
+})
+
+<main class="main">
+    @@include('components/bem-blocks/object-intro/_object-intro.html', {
+    "object-descriptor": "Продаж | Оренда",
+    "object-title": "Заміська резиденція в сосновому лісі. <br> 5 км від Києва.",
+    "heading-bg": "residence-heading-bg",
+    "photo-bg": "residence-photo-bg"
+    })
+
+    <section class="r-video">
+        <div class="container">
+
+            <h2 class="h2 --color--black">ВІДЕОЕКСКУРСІЯ</h2>
+
+            @@include('components/bem-blocks/object-video/_object-video.html', {
+            "youtube-link": "https://www.youtube.com/embed/DuaExOoqRHQ"
+            })
+        </div>
+    </section>
+
+    @@include('components/page-blocks/residence-page/_content-photo-left.html')
+
+    @@include('components/page-blocks/residence-page/residence-benefits/_r-benefits.html')
+
+    @@include('components/page-blocks/residence-page/_content-photo-right.html')
+
+    @@include('components/page-blocks/residence-page/_residence-info.html')
+</main>
+
+@@include('components/page-blocks/footer/_footer.html', {
+    "object-footer": "object-footer"
+})
+@@include('components/page-blocks/_scripts.html')
+
+</body>
+
+</html>

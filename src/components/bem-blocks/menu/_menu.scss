@@ -1,0 +1,89 @@
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: auto;
+  left: -100%;
+  bottom: 0;
+  background-color: #2a2a2d;
+  transition: left 1s;
+  z-index: 20;
+}
+
+.nav--visible {
+  left: 0;
+  z-index: 20;
+}
+
+.menu__item {
+  margin-bottom: 30px;
+}
+
+.menu__link {
+  padding: 0 15px;
+  display: block;
+  font-size: 20px;
+  line-height: 1.4;
+  color: white;
+
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
+
+  &:hover {
+    @media (hover: hover) {
+      color: #f44336;
+      .descriptor {
+        color: white;
+      }
+    }
+  }
+}
+
+.burger {
+  display: block;
+  width: 50px;
+  flex: 0 0 50px;
+  height: 5px;
+  background-color: white;
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    width: 50px;
+    flex: 0 0 50px;
+    height: 5px;
+    position: absolute;
+    background-color: white;
+  }
+
+  &::before {
+    transform: translateY(-15px);
+  }
+
+  &::after {
+    transform: translateY(15px);
+  }
+}
+
+.menu-close {
+  @include no-btn;
+  width: 50px;
+  height: 50px;
+  font-size: 80px;
+  line-height: 0;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  @media (hover) {
+    &:hover, &:focus-visible {
+      outline: 1px solid white;
+      outline-offset: 1px;
+      color: #f44336;
+      transform: scale(1.2);
+    }
+  }
+}

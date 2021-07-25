@@ -1,0 +1,39 @@
+.benefits {
+  padding: 0;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  p {
+    color: white;
+  }
+}
+
+.benefits__item {
+  margin-bottom: 35px;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    padding-right: 20px;
+    width: 50%;
+    text-align: left;
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    &:nth-last-child(-n+2) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.benefits__icon {
+  margin-bottom: 15px;
+  width: 45px;
+  height: 45px;
+  fill: white;
+}
