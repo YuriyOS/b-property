@@ -1,23 +1,11 @@
 .arch-heading-bg {
-  background-image: url("/img/arch/intro/arch-intro-left.webp");
+  background-image: url("/img/arch/intro/arch-intro-left.jpg");
 
   &:before {
     background: rgba(20, 20, 20, .92);
   }
 }
 
-@supports not (background-image: url("/img/arch/intro/arch-intro-left.webp")) {
-  .arch-heading-bg {
-    background-image: url("/img/arch/intro/arch-intro-left.jpg")
-  }
-}
-
 .arch-photo-bg {
-  background-image: url("/img/arch/intro/arch-intro-right.webp");
-}
-
-@supports not (background-image: url("/img/arch/intro/arch-intro-right.webp")) {
-  .arch-photo-bg {
-    background-image: url("/img/arch/intro/arch-intro-right.jpg")
-  }
+  background-image: url("/img/arch/intro/arch-intro-right.jpg");
 }

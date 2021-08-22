@@ -1,3 +1,4 @@
+// todo Проверить GitIgnore - загружается папка Build
 .advantages__wrap {
   @media (min-width: 992px) {
     display: flex;
@@ -86,6 +87,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.advantages__text {
+  text-transform: uppercase;
 }
 
 .--reverse {

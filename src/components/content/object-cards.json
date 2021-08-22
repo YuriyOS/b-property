@@ -7,11 +7,11 @@
     "card-jpg-link@2x": "/img/main-page/arch-main-page@2x.jpg",
     "card-alt": "Офіс в ЖК Arch House",
     "card-descriptor": "ПРОДАЖ",
-    "card-title": "Arch House",
+    "card-title": "Преміальний офіс у клубному будинку Arch&nbsp;House",
     "cardBenefit": [
-      "Arch House",
-      "Arch House",
-      "Arch House"
+      "Історична та ділова частина Києва",
+      "Окремий фасадний вхід",
+      "Дизайнерський ремонт. Обладнаний меблями та побутовою технікою"
     ],
     "object-link": "/arch-house.html",
     "btn-text": "Детальніше"
@@ -40,7 +40,7 @@
     "card-jpg-link": "/img/main-page/gostomel-main-page.jpg",
     "card-jpg-link@2x": "/img/main-page/gostomel-main-page@2x.jpg",
     "card-alt": "Заміська резиденція в сосновому лісі",
-    "card-descriptor": "ПРОДАЖ | ОРЕНДА",
+    "card-descriptor": "ПРОДАЖ",
     "card-title": "Заміська резеденція в сосновому лісі",
     "cardBenefit": [
       "5 км від Києва.",

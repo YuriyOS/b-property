@@ -1,23 +1,11 @@
 .residence-heading-bg {
-  background-image: url("/img/residence/house-intro-left.webp");
+  background-image: url("/img/residence/house-intro-left.jpg");
 
   &:before {
     background: rgba(20, 20, 20, .92);
   }
 }
 
-@supports not (background-image: url("/img/residence/intro/house-intro-left.webp")) {
-  .residence-heading-bg {
-    background-image: url("/img/residence/intro/house-intro-left.jpg")
-  }
-}
-
 .residence-photo-bg {
-  background-image: url("/img/residence/intro/house-intro-right.webp");
-}
-
-@supports not (background-image: url("/img/residence/intro/house-intro-right.webp")) {
-  .residence-photo-bg {
-    background-image: url("/img/residence/intro/house-intro-right.jpg")
-  }
+  background-image: url("/img/residence/intro/house-intro-right@2x.jpg");
 }

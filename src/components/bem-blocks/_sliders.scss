@@ -2,15 +2,25 @@
   margin-bottom: 50px;
 
   .swiper-pagination {
-    bottom: 20px;
+    bottom: 10px;
+
+    @media (min-width: 576px) {
+      bottom: 20px;
+    }
 
     .swiper-pagination-bullet {
-      width: 10px;
-      flex: 0 0 10px;
-      height: 10px;
+      width: 5px;
+      flex: 0 0 5px;
+      height: 5px;
       opacity: .8;
       border-radius: 0;
       background: white;
+
+      @media (min-width: 576px) {
+        width: 10px;
+        flex: 0 0 10px;
+        height: 10px;
+      }
     }
 
     .swiper-pagination-bullet-active {

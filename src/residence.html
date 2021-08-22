@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 @@include('components/page-blocks/_head.html',{
 "lang":"uk",
-"title":"Продаж, оренда заміськой резиденціїї в м. Гостомель",
-"description":"Gulp pack for easy html/php markup development",
-"keywords":"",
+"title":"Продаж заміської резиденції в м. Гостомель",
+"description":"Продаж заміської резиденції ► м. Гостомель ✓Авторський ремонт ✓SPA центр ✓Відкритий басейн з підігрівом ✓Без комісії ☎+38 097 292 11 93",
 "favicon.png":"/img/favicon.ico",
 })
 
 <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WF8RMS3"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 @@include('components/bem-blocks/object-header/_object-header.html', {
 "address": "м. Гостомель",
@@ -16,7 +22,7 @@
 
 <main class="main">
     @@include('components/bem-blocks/object-intro/_object-intro.html', {
-    "object-descriptor": "Продаж | Оренда",
+    "object-descriptor": "Продаж",
     "object-title": "Заміська резиденція в сосновому лісі. <br> 5 км від Києва.",
     "heading-bg": "residence-heading-bg",
     "photo-bg": "residence-photo-bg"
@@ -28,7 +34,7 @@
             <h2 class="h2 --color--black">ВІДЕОЕКСКУРСІЯ</h2>
 
             @@include('components/bem-blocks/object-video/_object-video.html', {
-            "youtube-link": "https://www.youtube.com/embed/DuaExOoqRHQ"
+            "youtube-link": "https://www.youtube.com/embed/fSXUyxaxJR8"
             })
         </div>
     </section>
@@ -43,7 +49,7 @@
 </main>
 
 @@include('components/page-blocks/footer/_footer.html', {
-    "object-footer": "object-footer"
+"object-footer": "object-footer"
 })
 @@include('components/page-blocks/_scripts.html')
 
